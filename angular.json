@@ -5,7 +5,20 @@
   "projects": {
     "mi-flota-app": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -88,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c1c4d9ec-5aa2-4974-837a-9c3f54cf700e"
   }
 }
