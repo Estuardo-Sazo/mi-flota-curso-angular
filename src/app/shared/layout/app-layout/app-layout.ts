@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
+import { HeaderNav } from '../../components/header-nav/header-nav';
+import { BottomNav } from '../../components/bottom-nav/bottom-nav';
 import { RouterOutlet } from '@angular/router';
-import { AppHeader } from "../../components/app-header/app-header";
-import { BottomNav } from "../../components/bottom-nav/bottom-nav";
 
 @Component({
   selector: 'app-app-layout',
-  imports: [AppHeader, RouterOutlet, BottomNav],
+  imports: [HeaderNav, BottomNav, RouterOutlet],
   templateUrl: './app-layout.html',
-  styleUrl: './app-layout.css'
+  styleUrl: './app-layout.css',
 })
-export class AppLayout {
-
-}
+export class AppLayout {}
