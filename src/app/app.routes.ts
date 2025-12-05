@@ -1,3 +1,4 @@
+import { Dashboard } from './features/dashboard/views/dashboard/dashboard';
 import { Routes } from '@angular/router';
 import { AppLayout } from './shared/layout/app-layout/app-layout';
 
