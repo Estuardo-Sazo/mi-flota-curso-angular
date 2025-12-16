@@ -1,0 +1,15 @@
+button.active {
+  color: #3b82f6;
+}
+
+button.active svg {
+  stroke: #3b82f6;
+}
+
+button:hover {
+  color: #60a5fa;
+}
+
+button:hover svg {
+  stroke: #60a5fa;
+}
