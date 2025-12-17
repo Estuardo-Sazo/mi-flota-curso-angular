@@ -1,0 +1,9 @@
+<button
+  [routerLink]="route()"
+  routerLinkActive="active"
+  [routerLinkActiveOptions]="{ exact: exactMatch() }"
+  class="flex-1 flex flex-col items-center justify-center py-2 text-[11px] font-medium text-gray-500 gap-0.5 transition-colors duration-150"
+>
+  <ng-content />
+  <span>{{ label() }}</span>
+</button>

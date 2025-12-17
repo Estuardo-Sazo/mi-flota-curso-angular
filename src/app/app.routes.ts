@@ -22,6 +22,11 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./features/records/views/records/records').then((m) => m.Records),
       },
+      {
+        path: 'settings',
+        loadComponent: () =>
+          import('./features/settings/views/settings/settings').then((m) => m.Settings),
+      },
     ],
   },
 ];
